@@ -1,2 +1,0 @@
-# Godot-GitBash-test
-yes

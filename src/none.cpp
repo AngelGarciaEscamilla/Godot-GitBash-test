@@ -6,9 +6,6 @@
 using namespace godot;
 
 void None::_process(double delta) {
-    if (!Engine::get_singleton()->is_editor_hint()){
-        UtilityFunctions::print("Hello since C++!");
-    }
 }
 
 void None::_bind_methods() {

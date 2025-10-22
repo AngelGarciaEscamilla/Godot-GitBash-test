@@ -12,6 +12,7 @@
 #include <godot_cpp/godot.hpp>
 
 #include "none.h"
+#include "player.h"
 
 using namespace godot;
 
@@ -20,6 +21,7 @@ void initialize_example_module(ModuleInitializationLevel p_level) {
 		return;
 	}
 	GDREGISTER_CLASS(None);
+	GDREGISTER_CLASS(Player);
 }
 
 void uninitialize_example_module(ModuleInitializationLevel p_level) {

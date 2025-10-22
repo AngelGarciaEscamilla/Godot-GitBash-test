@@ -1,3 +1,8 @@
-[gd_scene format=3 uid="uid://c52ouqvcdmogg"]
+[gd_scene load_steps=2 format=3 uid="uid://c52ouqvcdmogg"]
+
+[ext_resource type="Texture2D" uid="uid://dr0cep6vljdvy" path="res://ISO_C++_Logo.svg" id="1_ig7tw"]
 
 [node name="None" type="None"]
+
+[node name="Player" type="Player" parent="."]
+texture = ExtResource("1_ig7tw")

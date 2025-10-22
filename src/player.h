@@ -29,7 +29,14 @@ protected:
 public:
     void _process(double delta);
     void _input(const Ref<InputEvent> &event) override;
+    
     void set_right_key(String p_key);
     String get_right_key() const;
+    void set_left_key(String p_key);
+    String get_left_key() const;
+    void set_up_key(String p_key);
+    String get_up_key() const;
+    void set_down_key(String p_key);
+    String get_down_key() const;
 
 };
